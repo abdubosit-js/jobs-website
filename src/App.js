@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import star from './assets/star.svg'
 import wiew from './assets/wiew.svg'
+import sumka from './assets/sumka.svg'
+import lock from './assets/lock.svg'
 
 function App() {
 
@@ -25,11 +27,11 @@ function App() {
               <p>{todo.title}</p>
             </div>
             <div className='jobs'>
-              <img src={star} alt='' />
+              <img src={sumka} alt='' />
               <p>{todo.company_name}</p>
             </div>
             <div className='jobs'>
-              <img src={star} alt='' />
+              <img src={lock} alt='' />
               <p>{todo.location}</p>
             </div>
           </div>
