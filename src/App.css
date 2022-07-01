@@ -10,15 +10,12 @@
 }
 .jobs{
   margin-top: 10px;
+  width: 400px;
   display: flex;
   gap: 10px;
 }
-.jobs-txt-flex{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .title-flex{
+  width: 400px;
   margin-top: 10px;
   display: flex;
   gap: 10px;
@@ -41,10 +38,59 @@
   background-color: #E8FDF0;
   color: #26A258;
 }
-.jobs-cnt{
+.jobs-cnt-1{
+  position: relative;
+  margin-top: 20px;
   padding: 10px 25px;
-  width: 100%;
-  height: 160px;
   border-radius: 8px;
   border: 2px solid #F8E164;
+}
+.jobs-cnt{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn-icon{
+  display: flex;
+  flex-direction: column;
+  height: 105px;
+}
+.blue-btn{
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 105px;
+  height: 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #4D5562;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.box-1{
+  background-color: #418FAE;
+}
+.box-2{
+  margin-top: -35px;
+  position: absolute;
+  right: 25px;
+  background-color: #AE7541;
+}
+.top{
+  margin-top: 0;
+}
+.description li{
+  list-style: none;
+}
+.description{
+  margin-top: 20px;
+}
+
+@media (max-width: 650px){
+  .box-2{
+    left: 25px;
+  }
 }
